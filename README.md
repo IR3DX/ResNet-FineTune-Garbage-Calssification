@@ -26,7 +26,7 @@ To run the project, you'll need the following libraries:
 ### 1. Background Interference
 One of the key challenges encountered during training was that the model sometimes misclassified objects because of the background, as seen in the case of metal objects placed on a brown table being classified as cardboard. The model picked up on the background color rather than the object itself.
 
-###Possible Solution:
+### Possible Solution:
 A potential improvement could be to use image segmentation techniques, like a separation model, to isolate the object from the background. This could significantly improve classification accuracy.
 
 ### 2. Fine-tuning the Model
